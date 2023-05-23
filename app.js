@@ -36,6 +36,4 @@ modalClose.addEventListener('click', () => {
 	modal.style.display = "none";
 })
 
-// get current year
-const year = document.querySelector('.year');
-year.innerHTML = new Date().getFullYear();
+
